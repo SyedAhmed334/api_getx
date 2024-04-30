@@ -4,7 +4,6 @@ import 'package:api_getx_flutter/View/login_screen.dart';
 import 'package:api_getx_flutter/View_Model/signup_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/get_state_manager.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});

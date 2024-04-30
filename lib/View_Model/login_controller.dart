@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:api_getx_flutter/Utils/toast_message.dart';
-import 'package:api_getx_flutter/View/home_screen.dart';
+import 'package:api_getx_flutter/View/products_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -19,7 +19,7 @@ class LoginController extends GetxController {
       if (user['email'].toString() == emailController.text.toString() &&
           user['password'].toString() == passwordController.text.toString()) {
         isLoading.value = false;
-        Get.offAll(() => const HomeScreen());
+        Get.offAll(() => const ProductsScreen());
         ToastMessage.showToastMessage(message: 'User logged in successfully');
       } else {
         isLoading.value = false;

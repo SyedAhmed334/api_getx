@@ -3,7 +3,6 @@ import 'package:api_getx_flutter/View/signup_screen.dart';
 import 'package:api_getx_flutter/View_Model/login_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/get_state_manager.dart';
 
 import 'Widgets/custom_button.dart';
 

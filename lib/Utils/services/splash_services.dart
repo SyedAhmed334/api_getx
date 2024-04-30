@@ -1,3 +1,4 @@
+import 'package:api_getx_flutter/View/products_screen.dart';
 import 'package:api_getx_flutter/View/login_screen.dart';
 import 'package:get/get.dart';
 
@@ -7,6 +8,6 @@ class SplashServices {
         const Duration(
           seconds: 3,
         ),
-        () => Get.offAll(() => const LoginScreen()));
+        () => Get.offAll(() => const ProductsScreen()));
   }
 }
